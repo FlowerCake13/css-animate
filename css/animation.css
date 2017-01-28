@@ -1,0 +1,43 @@
+#rotate:hover{
+	transform:rotate(29deg);
+}
+
+#skew:hover{
+	transform:skewX(29deg);
+}
+
+#all:hover{
+	transform: rotate(89deg) skew(29deg);
+}
+
+#animate:hover{
+	animation-duration: 4.5s;
+	animation-name: cake;
+}
+
+#one:hover{
+	transform: translate(20px, 20px);
+}
+
+#two:hover{
+	transform:matrix(0.586,0.8,-0.8,0.866,0,0);
+}
+
+#three:hover{
+	transform:scale(1.5,0.5);
+}
+
+#four:hover{
+	
+}
+
+/*Key Frames!😇*/
+@keyframes cake{
+	0%, 100%{
+	font-size: 13px;
+	}
+
+	50%{
+		font-size: 49px;
+	}
+}

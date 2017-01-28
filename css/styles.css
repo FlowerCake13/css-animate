@@ -1,4 +1,4 @@
-#rotate, #skew, #all, #animate{
+div{
   border: 2px solid #000;
   width: 200px;
   height: 200px;
@@ -11,3 +11,10 @@ h3{
   text-align: center;
 }
 
+#animate{
+	font-size: 13px;
+}
+
+.otherstuff{
+	font-size: 25px;
+}
